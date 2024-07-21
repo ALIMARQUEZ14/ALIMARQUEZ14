@@ -1,0 +1,15 @@
+body {
+
+    background-color:orange;
+}
+h1 {color: rgb(234, 239, 240);}
+.W {
+    color: white; /* Color del texto */
+    background-color: #00a2ff; /* Color del fondo del círculo */
+    border: 3px solid rgb(235, 142, 2); /* Bordes alrededor del círculo */
+    border-radius: 50%; /* Bordes completamente redondeados para formar un círculo */
+    padding: 10px; /* Espacio dentro del círculo alrededor del texto */
+    display: inline-block; /* Necesario para que border-radius funcione correctamente */
+    text-align: center; /* Centra el texto dentro del círculo */
+    line-height: 1; /* Ajusta el espacio vertical del texto */
+}
